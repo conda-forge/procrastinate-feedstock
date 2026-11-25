@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.10.0"
+  version: "3.12.0"
 
 package:
   name: procrastinate
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/procrastinate-org/procrastinate/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 994eb2a5b8d921bd4643c5f218a99c378204c40ad3fb61fdd806c5896881e8a4
+  sha256: 9e6f0cf69cb9213ba934adbbb6c0eab8bc3fb65e534f5c300f26e40422989531
 
 build:
   number: 0
